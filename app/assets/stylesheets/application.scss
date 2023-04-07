@@ -27,11 +27,12 @@ html {
 
 body {
   height: 100%;
-  background: -webkit-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
-  background:    -moz-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
-  background:     -ms-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
-  background:      -o-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
-  background:         linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  background-color: #ccc;
+  // background: -webkit-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  // background:    -moz-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  // background:     -ms-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  // background:      -o-linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
+  // background:         linear-gradient(90deg, #1D976C 10%, #93F9B9 90%);
   font-family: 'Lato', sans-serif;
 }
 
@@ -46,7 +47,7 @@ body {
 }
 
 .navbar-default {
-  background-color: white;
+  // background-color: white;
   border-radius: 0;
   height: 80px;
   padding: 15px 0;
@@ -58,7 +59,7 @@ body {
   letter-spacing: -1px;
   font-size: 2em;
   font-weight: 300;
-  color: #1D976C !important;
+  color: yellow !important;
 }
 
 #jobs {

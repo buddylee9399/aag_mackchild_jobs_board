@@ -2,6 +2,7 @@ class JobsController < ApplicationController
   before_action :find_job, only: [:show, :edit, :update, :destroy]
 
   def index
+    # binding.irb
     if params[:category].blank?
       @jobs = Job.all.order("created_at DESC")
     else
